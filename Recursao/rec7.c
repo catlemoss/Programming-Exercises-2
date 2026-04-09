@@ -10,7 +10,7 @@ int somaDigito (int n)
 {
     if (n == 0) return 0;
 
-    return n % 10 + somaDigito(n / 10); // pega com o %10 e remove com o /10
+    return n % 10 + somaDigito(n / 10);     // pega com o %10 e remove com o /10
 }
 
 int main ()
